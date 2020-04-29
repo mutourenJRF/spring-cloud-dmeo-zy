@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-order-8002" />
+        <module name="cloud-order-80" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-enreka-7002" />
         <module name="cloud-enreka-7001" />
