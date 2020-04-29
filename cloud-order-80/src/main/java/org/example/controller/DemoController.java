@@ -12,7 +12,7 @@ public class DemoController {
 
     @Resource
     private RestTemplate restTemplate;
-    private static final String URL="http://localhost:8001";
+    private static final String URL="http://PAYMENT8001";
 
     @RequestMapping("test")
     public String test(){

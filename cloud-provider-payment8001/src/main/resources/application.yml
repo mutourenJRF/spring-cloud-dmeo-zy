@@ -11,3 +11,10 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: consumer8001
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30 #发送心跳包间隔30s
+    lease-expiration-duration-in-seconds: 90 #服务端在最后一次收到心跳包之后等待时间上限，默认90秒，之后剔除事务
+
+
