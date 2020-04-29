@@ -26,3 +26,35 @@ spring cloud 版本
         </dependencies>
       </dependencyManagement>
 
+devtools热部署
+-
+1. 引入依赖
+
+
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-devtools</artifactId>
+          <scope>runtime</scope>
+          <optional>true</optional>
+        </dependency>
+
+2. 在parent添加编辑器
+
+
+        <plugin>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-maven-plugin</artifactId>
+         <configuration>
+           <fork>true</fork>
+           <additionalProperties>true</additionalProperties>
+         </configuration>
+       </plugin> 
+
+3. 修改idea配置
+4. 启动配置修改edit configurations
+5. debug运行，run运行不可以
+6. 成功一次，其他都失败了
+7. 版本问题
+
+
+

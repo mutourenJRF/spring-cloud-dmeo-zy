@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7759533e-b829-4330-baa5-c5f2b7387176" name="Default Changelist" comment="" />
+    <list default="true" id="7759533e-b829-4330-baa5-c5f2b7387176" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7001/src/main/java/org/example/ServerMainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7002/src/main/java/org/example/Server7002MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-enreka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/ClientMainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +26,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,14 +64,77 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-enreka-7002/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Bytecode Indices" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\spring-cloud-demo-zy\cloud-enreka-7002\src\main\resources" />
+      <recent name="D:\GitHub\spring-cloud-demo-zy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientMainApplication">
+    <configuration name="ClientMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ClientMainApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server7002MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-enreka-7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Server7002MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-enreka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ServerMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ClientMainApplication" />
+        <item itemvalue="Spring Boot.Server7002MainApplication" />
+        <item itemvalue="Spring Boot.ServerMainApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -78,37 +165,107 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588056165673</updated>
-      <workItem from="1588056173755" duration="2317000" />
+      <workItem from="1588056173755" duration="4246000" />
+      <workItem from="1588062144221" duration="5641000" />
+      <workItem from="1588125655996" duration="3961000" />
     </task>
+    <task id="LOCAL-00001" summary="删除target目录">
+      <created>1588059321637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588059321637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除target目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除target目录" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1588059288253">
+    <state x="137" y="24" width="1160" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588067790972">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588059288253" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588058174824">
+    <state x="137" y="24" width="1160" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1588067790972" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1588059320037">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588058174824" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1588059298899">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588059320037" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588125836593">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588059298899" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1588059298898">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588125836593" />
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1588130950210">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588059298898" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1588059298895">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588130950210" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1588130950209">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588059298895" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1588059298898">
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588130950209" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1588130950209">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588059298898" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588130950209" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1588130950209">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588130950209" />
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1588130910109">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588130910109" />
+    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1588130910109">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588130910109" />
+    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1588130910109">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588130910109" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1588130910109">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588130910109" />
+    <state width="1323" height="220" key="GridCell.Tab.2.bottom" timestamp="1588067801559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588067801559" />
+    <state width="1323" height="220" key="GridCell.Tab.2.center" timestamp="1588067801559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1588067801559" />
+    <state width="1323" height="220" key="GridCell.Tab.2.left" timestamp="1588067801558">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1588067801558" />
+    <state width="1323" height="220" key="GridCell.Tab.2.right" timestamp="1588067801559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="220" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1588067801559" />
+    <state x="254" y="31" key="Registry" timestamp="1588067779010">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="254" y="31" key="Registry/0.0.1366.738@0.0.1366.738" timestamp="1588067779010" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1588067832973">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588067832973" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588059328308">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588059328308" />
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588125656074">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588125656074" />
+    <state x="115" y="128" key="new project wizard" timestamp="1588127884345">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="115" y="128" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1588127884345" />
   </component>
 </project>

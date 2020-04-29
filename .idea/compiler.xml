@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-demo-zy" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-enreka-7002" />
+        <module name="cloud-enreka-7001" />
       </profile>
     </annotationProcessing>
   </component>
