@@ -109,6 +109,32 @@ actuator 健康检查
 discovery服务发现
 -
 
-        
+consul 注册中心
+-
+1. 添加依赖
+
+
+          <dependency>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+                </dependency>      
     
+2. 添加配置信息
+
+
+          cloud:
+            consul:
+              host: localhost
+              port: 8500
+              discovery:
+                service-name: ${spring.application.name}
+
+3. restTemplate
+
+        
+        需要@loadBanlace注解
+
+
+
+
 

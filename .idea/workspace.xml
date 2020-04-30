@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7759533e-b829-4330-baa5-c5f2b7387176" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-consumer-8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-consumer-8006/src/main/java/org/example/ConsulConsumer8006Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-consumer-8006/src/main/java/org/example/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-consumer-8006/src/main/java/org/example/controller/Demotroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-consumer-8006/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-provider-8005/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-provider-8005/src/main/java/org/example/ConsulProvider8005Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-provider-8005/src/main/java/org/example/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-provider-8005/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-zk-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-zk-80/src/main/java/org/example/ZkConsumer80Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-zk-80/src/main/java/org/example/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-zk-80/src/main/java/org/example/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-zk-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-zk-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-zk-8004/src/main/java/org/example/Client8004Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-zk-8004/src/main/java/org/example/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-zk-8004/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-enreka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-enreka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-enreka-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-enreka-7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-80/src/main/java/org/example/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-80/src/main/java/org/example/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-80/src/main/java/org/example/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-80/src/main/java/org/example/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-order-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-order-8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/ClientMainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/ClientMainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/example/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,97 +83,101 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/ggit/bt_yx" />
+    <property name="last_opened_file_path" value="D:/ggit/cf-content" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
       <recent name="org.example.controller" />
       <recent name="org.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\spring-cloud-demo-zy\cloud-provider-8004\src\main\resources" />
       <recent name="D:\GitHub\spring-cloud-demo-zy\cloud-order-80\src\main\resources" />
       <recent name="D:\GitHub\spring-cloud-demo-zy\cloud-enreka-7002\src\main\resources" />
       <recent name="D:\GitHub\spring-cloud-demo-zy" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Server7002MainApplication">
-    <configuration name="Client8002MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-order-8002" />
+  <component name="RunManager" selected="Spring Boot.ConsulConsumer8006Application">
+    <configuration name="Client8004Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Client8004Application" />
+      <module name="cloud-provider-zk-8004" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Client8002MainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ClientMainApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Order80MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-order-80" />
+    <configuration name="Client8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-8004" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Order80MainApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Client8004Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server7002MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-enreka-7002" />
+    <configuration name="ConsulConsumer8006Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consul-consumer-8006" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Server7002MainApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ConsulConsumer8006Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-enreka-7001" />
+    <configuration name="ConsulProvider8005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consul-provider-8005" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ServerMainApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ConsulProvider8005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkConsumer80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-zk-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ZkConsumer80Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Client8002MainApplication" />
-        <item itemvalue="Spring Boot.ClientMainApplication" />
-        <item itemvalue="Spring Boot.Server7002MainApplication" />
-        <item itemvalue="Spring Boot.ServerMainApplication" />
-        <item itemvalue="Spring Boot.Order80MainApplication" />
+        <item itemvalue="Spring Boot.ConsulConsumer8006Application" />
+        <item itemvalue="Spring Boot.ConsulProvider8005Application" />
+        <item itemvalue="Application.Client8004Application" />
+        <item itemvalue="Spring Boot.ZkConsumer80Application" />
+        <item itemvalue="Spring Boot.Client8004Application" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +212,7 @@
       <updated>1588056165673</updated>
       <workItem from="1588056173755" duration="4246000" />
       <workItem from="1588062144221" duration="5641000" />
-      <workItem from="1588125655996" duration="16186000" />
+      <workItem from="1588125655996" duration="26638000" />
     </task>
     <task id="LOCAL-00001" summary="删除target目录">
       <created>1588059321637</created>
@@ -218,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588147075465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="eureka">
+      <created>1588153765512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588153765512</updated>
+    </task>
+    <task id="LOCAL-00005" summary="eureka">
+      <created>1588153775294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588153775294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,46 +269,58 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1588132096270" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1588153762823">
+    <state x="294" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588154745539">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588153762823" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588153603558">
+    <state x="294" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1588154745539" />
+    <state x="390" y="228" width="586" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588154769487">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588153603558" />
-    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1588153356391">
+    <state x="390" y="228" width="586" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1588154769487" />
+    <state x="390" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588154747566">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1588153356391">
+    <state x="390" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1588154747566" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1588153774078">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1588153356391">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588153774078" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588209818644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1588153356391">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588209818644" />
+    <state width="1323" height="317" key="GridCell.Tab.0.bottom" timestamp="1588217277627">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.1.bottom" timestamp="1588153356391">
+    <state width="1323" height="317" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588217277627" />
+    <state width="1323" height="317" key="GridCell.Tab.0.center" timestamp="1588217277627">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.1.center" timestamp="1588153356391">
+    <state width="1323" height="317" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588217277627" />
+    <state width="1323" height="317" key="GridCell.Tab.0.left" timestamp="1588217277626">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.1.left" timestamp="1588153356391">
+    <state width="1323" height="317" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588217277626" />
+    <state width="1323" height="317" key="GridCell.Tab.0.right" timestamp="1588217277627">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
-    <state width="1323" height="206" key="GridCell.Tab.1.right" timestamp="1588153356391">
+    <state width="1323" height="317" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588217277627" />
+    <state width="1323" height="317" key="GridCell.Tab.1.bottom" timestamp="1588217277628">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588153356391" />
+    <state width="1323" height="317" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588217277628" />
+    <state width="1323" height="317" key="GridCell.Tab.1.center" timestamp="1588217277628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="317" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588217277628" />
+    <state width="1323" height="317" key="GridCell.Tab.1.left" timestamp="1588217277628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="317" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588217277628" />
+    <state width="1323" height="317" key="GridCell.Tab.1.right" timestamp="1588217277628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="317" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588217277628" />
     <state width="1323" height="220" key="GridCell.Tab.2.bottom" timestamp="1588067801559">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -302,17 +345,17 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588067832973" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588147087760">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588153782853">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588147087760" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588153782853" />
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1588125656074">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588125656074" />
-    <state x="115" y="128" key="new project wizard" timestamp="1588144858587">
+    <state x="57" y="64" key="new project wizard" timestamp="1588216244192">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="115" y="128" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1588144858587" />
+    <state x="57" y="64" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1588216244192" />
   </component>
 </project>

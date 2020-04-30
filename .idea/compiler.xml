@@ -6,13 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-order-8002" />
-        <module name="cloud-order-80" />
-        <module name="cloud-provider-payment8001" />
-        <module name="cloud-enreka-7002" />
         <module name="cloud-enreka-7001" />
+        <module name="cloud-consul-consumer-8006" />
+        <module name="cloud-consumer-zk-80" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-order-8002" />
+        <module name="cloud-consul-provider-8005" />
+        <module name="cloud-enreka-7002" />
+        <module name="cloud-provider-zk-8004" />
+        <module name="cloud-order-80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-provider-8004" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
